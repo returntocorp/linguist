@@ -48,7 +48,7 @@ ABAP:
   ace_mode: abap
   language_id: 1
 ABNF:
-  type: data
+  type: programming
   ace_mode: text
   extensions:
   - ".abnf"
@@ -107,7 +107,7 @@ APL:
   codemirror_mime_type: text/apl
   language_id: 6
 ASN.1:
-  type: data
+  type: programming
   extensions:
   - ".asn"
   - ".asn1"
@@ -172,7 +172,7 @@ Ada:
   ace_mode: ada
   language_id: 11
 Adobe Font Metrics:
-  type: data
+  type: programming
   tm_scope: source.afm
   extensions:
   - ".afm"
@@ -222,7 +222,7 @@ AngelScript:
   codemirror_mime_type: text/x-c++src
   language_id: 389477596
 Ant Build System:
-  type: data
+  type: programming
   tm_scope: text.xml.ant
   filenames:
   - ant.xml
@@ -232,7 +232,7 @@ Ant Build System:
   codemirror_mime_type: application/xml
   language_id: 15
 ApacheConf:
-  type: data
+  type: programming
   aliases:
   - aconf
   - apache
@@ -534,7 +534,7 @@ C++:
   - ".tpp"
   language_id: 43
 C-ObjDump:
-  type: data
+  type: programming
   extensions:
   - ".c-objdump"
   tm_scope: objdump.x86asm
@@ -583,7 +583,7 @@ COBOL:
   codemirror_mime_type: text/x-cobol
   language_id: 48
 COLLADA:
-  type: data
+  type: programming
   extensions:
   - ".dae"
   tm_scope: text.xml
@@ -592,7 +592,7 @@ COLLADA:
   codemirror_mime_type: text/xml
   language_id: 49
 CSON:
-  type: data
+  type: programming
   group: CoffeeScript
   tm_scope: source.coffee
   ace_mode: coffee
@@ -613,7 +613,7 @@ CSS:
   - ".css"
   language_id: 50
 CSV:
-  type: data
+  type: programming
   ace_mode: text
   tm_scope: none
   extensions:
@@ -836,7 +836,7 @@ Coq:
   ace_mode: text
   language_id: 69
 Cpp-ObjDump:
-  type: data
+  type: programming
   extensions:
   - ".cppobjdump"
   - ".c++-objdump"
@@ -940,7 +940,7 @@ D:
   codemirror_mime_type: text/x-d
   language_id: 80
 D-ObjDump:
-  type: data
+  type: programming
   extensions:
   - ".d-objdump"
   tm_scope: objdump.x86asm
@@ -966,7 +966,7 @@ DM:
   ace_mode: c_cpp
   language_id: 83
 DNS Zone:
-  type: data
+  type: programming
   extensions:
   - ".zone"
   - ".arpa"
@@ -987,7 +987,7 @@ DTrace:
   codemirror_mime_type: text/x-csrc
   language_id: 85
 Darcs Patch:
-  type: data
+  type: programming
   aliases:
   - dpatch
   extensions:
@@ -1016,7 +1016,7 @@ DataWeave:
   tm_scope: source.data-weave
   language_id: 974514097
 Diff:
-  type: data
+  type: programming
   extensions:
   - ".diff"
   - ".patch"
@@ -1028,7 +1028,7 @@ Diff:
   codemirror_mime_type: text/x-diff
   language_id: 88
 Dockerfile:
-  type: data
+  type: programming
   tm_scope: source.dockerfile
   extensions:
   - ".dockerfile"
@@ -1069,7 +1069,7 @@ E:
   ace_mode: text
   language_id: 92
 EBNF:
-  type: data
+  type: programming
   extensions:
   - ".ebnf"
   tm_scope: source.ebnf
@@ -1115,7 +1115,7 @@ EQ:
   codemirror_mime_type: text/x-csharp
   language_id: 96
 Eagle:
-  type: data
+  type: programming
   extensions:
   - ".sch"
   - ".brd"
@@ -1125,7 +1125,7 @@ Eagle:
   codemirror_mime_type: text/xml
   language_id: 97
 Easybuild:
-  type: data
+  type: programming
   group: Python
   ace_mode: python
   codemirror_mode: python
@@ -1135,7 +1135,7 @@ Easybuild:
   - ".eb"
   language_id: 342840477
 Ecere Projects:
-  type: data
+  type: programming
   group: JavaScript
   extensions:
   - ".epj"
@@ -1145,7 +1145,7 @@ Ecere Projects:
   codemirror_mime_type: application/json
   language_id: 98
 Edje Data Collection:
-  type: data
+  type: programming
   extensions:
    - ".edc"
   tm_scope: source.json
@@ -1312,7 +1312,7 @@ Filterscript:
   ace_mode: text
   language_id: 112
 Formatted:
-  type: data
+  type: programming
   extensions:
   - ".for"
   - ".eam.fs"
@@ -1371,7 +1371,7 @@ Frege:
   ace_mode: haskell
   language_id: 116
 G-code:
-  type: data
+  type: programming
   extensions:
   - ".g"
   - ".gco"
@@ -1445,7 +1445,7 @@ GLSL:
   ace_mode: glsl
   language_id: 124
 GN:
-  type: data
+  type: programming
   extensions:
   - ".gn"
   - ".gni"
@@ -1507,7 +1507,7 @@ Gentoo Eclass:
   codemirror_mime_type: text/x-sh
   language_id: 128
 Gerber Image:
-  type: data
+  type: programming
   aliases:
   - rs-274x
   extensions:
@@ -1611,7 +1611,7 @@ Grace:
   ace_mode: text
   language_id: 135
 Gradle:
-  type: data
+  type: programming
   extensions:
   - ".gradle"
   tm_scope: source.groovy.gradle
@@ -1632,14 +1632,14 @@ Grammatical Framework:
   codemirror_mime_type: text/x-haskell
   language_id: 137
 Graph Modeling Language:
-  type: data
+  type: programming
   extensions:
   - ".gml"
   tm_scope: none
   ace_mode: text
   language_id: 138
 GraphQL:
-  type: data
+  type: programming
   extensions:
   - ".graphql"
   - ".gql"
@@ -1647,7 +1647,7 @@ GraphQL:
   ace_mode: text
   language_id: 139
 Graphviz (DOT):
-  type: data
+  type: programming
   tm_scope: source.dot
   extensions:
   - ".dot"
@@ -1789,7 +1789,7 @@ HTML+PHP:
   codemirror_mime_type: application/x-httpd-php
   language_id: 151
 HTTP:
-  type: data
+  type: programming
   extensions:
   - ".http"
   tm_scope: source.httpspec
@@ -1899,7 +1899,7 @@ IGOR Pro:
   ace_mode: text
   language_id: 162
 INI:
-  type: data
+  type: programming
   extensions:
   - ".ini"
   - ".cfg"
@@ -1916,7 +1916,7 @@ INI:
   codemirror_mime_type: text/x-properties
   language_id: 163
 IRC log:
-  type: data
+  type: programming
   aliases:
   - irc
   - irc logs
@@ -2010,7 +2010,7 @@ JFlex:
   ace_mode: text
   language_id: 173
 JSON:
-  type: data
+  type: programming
   tm_scope: source.json
   group: JavaScript
   ace_mode: json
@@ -2029,7 +2029,7 @@ JSON:
   - mcmod.info
   language_id: 174
 JSON5:
-  type: data
+  type: programming
   extensions:
   - ".json5"
   filenames:
@@ -2040,7 +2040,7 @@ JSON5:
   codemirror_mime_type: application/json
   language_id: 175
 JSONLD:
-  type: data
+  type: programming
   group: JavaScript
   ace_mode: javascript
   extensions:
@@ -2192,7 +2192,7 @@ KRL:
   ace_mode: text
   language_id: 186
 KiCad Layout:
-  type: data
+  type: programming
   aliases:
   - pcbnew
   extensions:
@@ -2207,14 +2207,14 @@ KiCad Layout:
   codemirror_mime_type: text/x-common-lisp
   language_id: 187
 KiCad Legacy Layout:
-  type: data
+  type: programming
   extensions:
   - ".brd"
   tm_scope: source.pcb.board
   ace_mode: text
   language_id: 140848857
 KiCad Schematic:
-  type: data
+  type: programming
   aliases:
   - eeschema schematic
   extensions:
@@ -2355,7 +2355,7 @@ Limbo:
   ace_mode: text
   language_id: 201
 Linker Script:
-  type: data
+  type: programming
   extensions:
   - ".ld"
   - ".lds"
@@ -2365,7 +2365,7 @@ Linker Script:
   ace_mode: text
   language_id: 202
 Linux Kernel Module:
-  type: data
+  type: programming
   extensions:
   - ".mod"
   tm_scope: none
@@ -2667,7 +2667,7 @@ Matlab:
   codemirror_mime_type: text/x-octave
   language_id: 225
 Maven POM:
-  type: data
+  type: programming
   tm_scope: text.xml.pom
   filenames:
   - pom.xml
@@ -2818,7 +2818,7 @@ NCL:
   ace_mode: text
   language_id: 240
 NL:
-  type: data
+  type: programming
   extensions:
   - ".nl"
   tm_scope: none
@@ -2893,7 +2893,7 @@ NewLisp:
   codemirror_mime_type: text/x-common-lisp
   language_id: 247
 Nginx:
-  type: data
+  type: programming
   extensions:
   - ".nginxconf"
   - ".vhost"
@@ -2916,7 +2916,7 @@ Nim:
   tm_scope: source.nim
   language_id: 249
 Ninja:
-  type: data
+  type: programming
   tm_scope: source.ninja
   extensions:
   - ".ninja"
@@ -2989,7 +2989,7 @@ OCaml:
   tm_scope: source.ocaml
   language_id: 255
 ObjDump:
-  type: data
+  type: programming
   extensions:
   - ".objdump"
   tm_scope: objdump.x86asm
@@ -3103,7 +3103,7 @@ OpenSCAD:
   ace_mode: scad
   language_id: 266
 OpenType Feature File:
-  type: data
+  type: programming
   aliases:
   - AFDKO
   extensions:
@@ -3366,7 +3366,7 @@ Pic:
   codemirror_mime_type: text/troff
   language_id: 425
 Pickle:
-  type: data
+  type: programming
   extensions:
   - ".pkl"
   tm_scope: none
@@ -3493,7 +3493,7 @@ Propeller Spin:
   ace_mode: text
   language_id: 296
 Protocol Buffer:
-  type: data
+  type: programming
   aliases:
   - protobuf
   - Protocol Buffers
@@ -3505,7 +3505,7 @@ Protocol Buffer:
   codemirror_mime_type: text/x-protobuf
   language_id: 297
 Public Key:
-  type: data
+  type: programming
   extensions:
   - ".asc"
   - ".pub"
@@ -3538,7 +3538,7 @@ Puppet:
   tm_scope: source.puppet
   language_id: 299
 Pure Data:
-  type: data
+  type: programming
   extensions:
   - ".pd"
   tm_scope: none
@@ -3614,7 +3614,7 @@ Python console:
   ace_mode: text
   language_id: 428
 Python traceback:
-  type: data
+  type: programming
   group: Python
   searchable: false
   extensions:
@@ -3726,7 +3726,7 @@ RMarkdown:
   tm_scope: source.gfm
   language_id: 313
 RPM Spec:
-  type: data
+  type: programming
   tm_scope: source.rpm-spec
   extensions:
   - ".spec"
@@ -3778,7 +3778,7 @@ Rascal:
   ace_mode: text
   language_id: 173616037
 Raw token data:
-  type: data
+  type: programming
   aliases:
   - raw
   extensions:
@@ -3830,7 +3830,7 @@ Redcode:
   ace_mode: text
   language_id: 321
 Regular Expression:
-  type: data
+  type: programming
   extensions:
   - ".regexp"
   - ".regex"
@@ -4034,7 +4034,7 @@ SMT:
   ace_mode: text
   language_id: 330
 SPARQL:
-  type: data
+  type: programming
   tm_scope: source.sparql
   ace_mode: text
   codemirror_mode: sparql
@@ -4053,7 +4053,7 @@ SQF:
   ace_mode: text
   language_id: 332
 SQL:
-  type: data
+  type: programming
   tm_scope: source.sql
   ace_mode: sql
   codemirror_mode: sql
@@ -4090,7 +4090,7 @@ SRecode Template:
   - ".srt"
   language_id: 335
 STON:
-  type: data
+  type: programming
   group: Smalltalk
   extensions:
   - ".ston"
@@ -4098,7 +4098,7 @@ STON:
   ace_mode: text
   language_id: 336
 SVG:
-  type: data
+  type: programming
   extensions:
   - ".svg"
   tm_scope: text.xml
@@ -4325,7 +4325,7 @@ SourcePawn:
   ace_mode: text
   language_id: 354
 Spline Font Database:
-  type: data
+  type: programming
   extensions:
   - ".sfd"
   tm_scope: text.sfd
@@ -4385,14 +4385,14 @@ Stylus:
   ace_mode: stylus
   language_id: 359
 SubRip Text:
-  type: data
+  type: programming
   extensions:
   - ".srt"
   ace_mode: text
   tm_scope: text.srt
   language_id: 360
 Sublime Text Config:
-  type: data
+  type: programming
   group: JSON
   tm_scope: source.js
   ace_mode: javascript
@@ -4464,7 +4464,7 @@ TLA:
   ace_mode: text
   language_id: 364
 TOML:
-  type: data
+  type: programming
   extensions:
   - ".toml"
   tm_scope: source.toml
@@ -4606,7 +4606,7 @@ Turing:
   ace_mode: text
   language_id: 375
 Turtle:
-  type: data
+  type: programming
   extensions:
   - ".ttl"
   tm_scope: source.turtle
@@ -4625,7 +4625,7 @@ Twig:
   codemirror_mime_type: text/x-twig
   language_id: 377
 Type Language:
-  type: data
+  type: programming
   aliases:
   - tl
   extensions:
@@ -4657,7 +4657,7 @@ Unified Parallel C:
   tm_scope: source.c
   language_id: 379
 Unity3D Asset:
-  type: data
+  type: programming
   ace_mode: yaml
   codemirror_mode: yaml
   codemirror_mime_type: text/x-yaml
@@ -4809,21 +4809,21 @@ Vue:
   ace_mode: html
   language_id: 391
 Wavefront Material:
-  type: data
+  type: programming
   extensions:
   - ".mtl"
   tm_scope: source.wavefront.mtl
   ace_mode: text
   language_id: 392
 Wavefront Object:
-  type: data
+  type: programming
   extensions:
   - ".obj"
   tm_scope: source.wavefront.obj
   ace_mode: text
   language_id: 393
 Web Ontology Language:
-  type: data
+  type: programming
   extensions:
   - ".owl"
   tm_scope: text.xml
@@ -4853,7 +4853,7 @@ WebIDL:
   codemirror_mime_type: text/x-webidl
   language_id: 395
 World of Warcraft Addon Data:
-  type: data
+  type: programming
   extensions:
   - ".toc"
   tm_scope: source.toc
@@ -4880,7 +4880,7 @@ XC:
   codemirror_mime_type: text/x-csrc
   language_id: 398
 XCompose:
-  type: data
+  type: programming
   filenames:
   - ".XCompose"
   - XCompose
@@ -4889,7 +4889,7 @@ XCompose:
   ace_mode: text
   language_id: 225167241
 XML:
-  type: data
+  type: programming
   ace_mode: xml
   codemirror_mode: xml
   codemirror_mime_type: text/xml
@@ -5010,7 +5010,7 @@ XML:
   - packages.config
   language_id: 399
 XPM:
-  type: data
+  type: programming
   extensions:
   - ".xpm"
   - ".pm"
@@ -5018,7 +5018,7 @@ XPM:
   tm_scope: source.c
   language_id: 781846279
 XPages:
-  type: data
+  type: programming
   extensions:
   - ".xsp-config"
   - ".xsp.metadata"
@@ -5092,7 +5092,7 @@ Xtend:
   ace_mode: text
   language_id: 406
 YAML:
-  type: data
+  type: programming
   tm_scope: source.yaml
   aliases:
   - yml
@@ -5113,7 +5113,7 @@ YAML:
   codemirror_mime_type: text/x-yaml
   language_id: 407
 YANG:
-  type: data
+  type: programming
   extensions:
   - ".yang"
   tm_scope: source.yang
@@ -5147,7 +5147,7 @@ Zimpl:
   ace_mode: text
   language_id: 411
 desktop:
-  type: data
+  type: programming
   extensions:
   - ".desktop"
   - ".desktop.in"
@@ -5164,7 +5164,7 @@ eC:
   ace_mode: text
   language_id: 413
 edn:
-  type: data
+  type: programming
   ace_mode: clojure
   codemirror_mode: clojure
   codemirror_mime_type: text/x-clojure
