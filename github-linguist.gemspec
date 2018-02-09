@@ -2,7 +2,7 @@ require File.expand_path('../lib/linguist/version', __FILE__)
 
 Gem::Specification.new do |s|
   s.name    = 'github-linguist'
-  s.version = Linguist::VERSION
+  s.version = ENV['GEM_VERSION'] || Linguist::VERSION
   s.summary = "GitHub Language detection"
   s.description = 'We use this library at GitHub to detect blob languages, highlight code, ignore binary files, suppress generated files in diffs, and generate language breakdown graphs.'
 
@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.extensions = ['ext/linguist/extconf.rb']
 
   s.add_dependency 'charlock_holmes', '~> 0.7.5'
-  s.add_dependency 'escape_utils',    '~> 1.1.0'
+  s.add_dependency 'escape_utils',    '~> 1.2.0'
   s.add_dependency 'mime-types',      '>= 1.19'
   s.add_dependency 'rugged',          '>= 0.25.1'
 
