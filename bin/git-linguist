@@ -77,13 +77,21 @@ class GitLinguist
     return unless File.directory? @repo_path
 
     begin
-      tmp_path = Dir::Tmpname.make_tmpname(cache_file, nil)
-      File.open(tmp_path, "wb") do |f|
-        marshal = Marshal.dump(object)
-        f.write(Zlib::Deflate.deflate(marshal))
-      end
+      # Ruby removed make_tmpname from the tmpdir library [0]
+      # so we have to make do with Dir::Tmpname.create with a blank
+      # `tmpdir` param, since just want the name of the file
+      # [0]: https://github.com/ruby/ruby/commit/25d56e
+      Dir::Tmpname.create(cache_file, tmpdir='') do |tmp_path|
+        # .create combines the cache_file and tmpdir params with
+        # a slash, so chomp that off
+        tmp_path = tmp_path[1..tmp_path.size]
+        File.open(tmp_path, "wb") do |f|
+          marshal = Marshal.dump(object)
+          f.write(Zlib::Deflate.deflate(marshal))
+        end
 
-      File.rename(tmp_path, cache_file)
+        File.rename(tmp_path, cache_file)
+      end
     rescue => e
       (File.unlink(tmp_path) rescue nil)
       raise e
